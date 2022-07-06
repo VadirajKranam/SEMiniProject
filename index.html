@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIBLIOSTORE</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fa fa-book" style="font-size:48px;color:rgb(242, 164, 7);" ></i> BIBLIOSTORE </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <!-- <a href="#" class="fas fa-heart"></a> -->
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#featured">featured</a>
+            <a href="#arrivals">arrivals</a>
+            <a href="#reviews">reviews</a>
+            <!-- <a href="#blogs">blogs</a> -->
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+<!-- Cart -->
+<!-- <div class="shopping-cart">
+    <div class="title">
+        Cart
+    </div>
+
+</div> -->
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>upto 25% off</h3>
+            <p>Exciting offers closing soon!</p>
+            <!-- <a href="#" id="sn" class="btn">shop now</a> -->
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="image/sherlock.jpg" alt="">
+                    <div class="hide">
+                        <h2>Sherlock Holmes</h2>
+                        <h3>By Sir Arthur Conan Doyle</h3>
+                        <span class="discount">₹205</span>
+                        <span class="noDisc">  ₹275</span>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide"><img src="image/jugari.jpg" alt="">
+                    <div class="hide">
+                        <h2>Jugari Cross</h2>
+                        <h3>By Poornachandra Tejaswi</h3>
+                        <span class="discount">₹169</span>
+                        <span class="noDisc">  ₹225</span>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide"><img src="image/warnpeace.jpg" alt="">
+                    <div class="hide">
+                        <h2>War And Peace</h2>
+                        <h3>By Leo Tolstoy</h3>
+                        <span class="discount">₹375</span>
+                        <span class="noDisc">  ₹499</span>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide"><img src="image/romeo.jpg" alt="">
+                    <div class="hide">
+                        <h2>Romeo And Juliet</h2>
+                        <h3>By William Shakespeare</h3>
+                        <span class="discount">₹112</span>
+                        <span class="noDisc">  ₹150</span>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide"><img src="image/kuvempu.jpg" alt="">
+                    <div class="hide">
+                        <h2>Malegalalli Madumagalu</h2>
+                        <h3>By Kuvempu</h3>
+                        <span class="discount">₹285</span>
+                        <span class="noDisc">  ₹380</span>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide"><img src="image\AngelsAndDemons.jpg" alt="">
+                    <div class="hide">
+                        <h2>Angels And Demons</h2>
+                        <h3>By Dan Brown</h3>
+                        <span class="discount">₹375</span>
+                        <span class="noDisc">  ₹500</span>
+                    </div>
+                </a>
+            </div>
+            <!-- <img src="image/stand.png" class="stand" alt=""> -->
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured books</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <h2>The ABC Murders is a surprising novel tackling the modern figure of the serial killer and the psychology behind it.
+
+                        There’s a serial killer on the loose, working his way through the alphabet - and the whole country is in a state of panic. A is for Mrs Ascher in Andover, B is for Betty Barnard in Bexhill, C is for Sir Carmichael Clarke in Churston. With each murder, the killer is getting more confident – but leaving a trail of deliberate clues to taunt the proud Hercule Poirot might just prove to be the first, and fatal mistake</h2>
+                    <!-- <a href="#" class="fas fa-search"></a> -->
+                    <!-- <a href="#" class="fas fa-heart"></a> -->
+                    <!-- <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                    <img src="image/abc.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">₹199 <span>₹299</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <h2>The Woman in White is an intricately plotted story, organised as a chain of 'witness' statements from a wide diversity of characters designed to unravel a cunning conspiracy against innocent women by a duo of memorable aristocratic monsters, Sir Percival Glyde and his devilish companion, the Italian Count Fosco</h2>
+                    <!-- <a href="#" class="fas fa-search"></a> -->
+                    <!-- <a href="#" class="fas fa-heart"></a> -->
+                    <!-- <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                    <img src="image/woman.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">₹249 <span>₹400</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <h2>It was not unusual to find the beautiful bronzed body of the sun-loving Arlena Stuart stretched out on a beach, face down. Only, on this occasion, there was no sun… she had been strangled. Ever since Arlena’s arrival at the resort, Hercule Poirot had detected sexual tension in the seaside air. But could this apparent ‘crime of passion’ have been something more evil and premeditated altogether?</h2>
+                    <!-- <a href="#" class="fas fa-search"></a> -->
+                    <!-- <a href="#" class="fas fa-heart"></a> -->
+                    <!-- <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                    <img src="image/evil.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">₹199 <span>₹299</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <h2> The novel depicts an unnamed young woman who impetuously marries a wealthy widower, before discovering that both he and his household are haunted by the memory of his late first wife, the title character.</h2>
+                    <!-- <a href="#" class="fas fa-search"></a> -->
+                    <!-- <a href="#" class="fas fa-heart"></a> -->
+                    <!-- <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                    <img src="image/rebecca.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">₹399 <span>₹599</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <h2>Alicia Berenson’s life is seemingly perfect. A famous painter married to an in-demand fashion photographer, she lives in a grand house with big windows overlooking a park in one of London’s most desirable areas. One evening her husband Gabriel returns home late from a fashion shoot, and Alicia shoots him five times in the face, and then never speaks another word.
+
+                        Alicia’s refusal to talk, or give any kind of explanation, turns a domestic tragedy into something far grander, a mystery that captures the public imagination and casts Alicia into notoriety. The price of her art skyrockets, and she, the silent patient, is hidden away from the tabloids and spotlight at the Grove, a secure forensic unit in North London.
+                        
+                        Theo Faber is a criminal psychotherapist who has waited a long time for the opportunity to work with Alicia. His determination to get her to talk and unravel the mystery of why she shot her husband takes him down a twisting path into his own motivations—a search for the truth that threatens to consume him....</h2>
+                    <!-- <a href="#" class="fas fa-search"></a> -->
+                    <!-- <a href="#" class="fas fa-heart"></a> -->
+                    <!-- <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                    <img src="image/silent.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">₹289 <span>₹499</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <h2>In Carthage, Mo., former New York-based writer Nick Dunne (Ben Affleck) and his glamorous wife Amy (Rosamund Pike) present a portrait of a blissful marriage to the public. However, when Amy goes missing on the couple's fifth wedding anniversary, Nick becomes the prime suspect in her disappearance. The resulting police pressure and media frenzy cause the Dunnes' image of a happy union to crumble, leading to tantalizing questions about who Nick and Amy truly are.</h2>
+                    <!-- <a href="#" class="fas fa-search"></a> -->
+                    <!-- <a href="#" class="fas fa-heart"></a> -->
+                    <!-- <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                    <img src="image/gone.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">₹245 <span>₹399 </span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <!-- <div class="swiper-slide box">
+                <div class="icons">
+                     <a href="#" class="fas fa-search"></a> -->
+                    <!-- <a href="#" class="fas fa-heart"></a> -->
+                    <!-- <a href="#" class="fas fa-eye"></a> -->
+                <!-- </div>
+                <div class="image">
+                    <img src="image/kuvempu.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">₹199 <span>₹299 </span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>  -->
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+
+<!-- arrivals section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>new arrivals</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/new arrivals/1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">₹199 <span>₹299 </span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <form action="https://www.goodreads.com/book/show/35031085-frankenstein">
+                    <button class="rev">Reviews</button>
+                </form>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/new arrivals/2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">₹245 <span>₹349 </span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <form action="https://www.goodreads.com/book/show/4671.The_Great_Gatsby">
+                    <button class="rev">Reviews</button>
+                </form>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/new arrivals/3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">₹289 <span>₹349 </span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <form action="https://www.goodreads.com/book/show/33.The_Lord_of_the_Rings?ref=nav_sb_ss_3_8">
+                    <button class="rev">Reviews</button>
+                </form>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/new arrivals/4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">₹399 <span>₹499</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <form action="#">
+                    <button class="rev">Reviews</button>
+                </form>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/new arrivals/5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">₹399 <span>₹499</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <form action="https://www.goodreads.com/book/show/22034.The_Godfather">
+                    <button class="rev">Reviews</button>
+                </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/new arrivals/6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">₹299 <span>₹399</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <form action="https://www.goodreads.com/book/show/68984.The_Power_of_Your_Subconscious_Mind?ref=nav_sb_ss_1_15">
+                    <button class="rev">Reviews</button>
+                </form>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/new arrivals/7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">₹249 <span>₹349</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <form action="https://www.goodreads.com/book/show/1375.The_Iliad_The_Odyssey?ref=nav_sb_ss_2_6">
+                    <button class="rev">Reviews</button>
+                </form>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/new arrivals/8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">₹349 <span>₹499</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <form action="https://www.goodreads.com/book/show/6185.Wuthering_Heights?ref=nav_sb_ss_1_4">
+                    <button class="rev">Reviews</button>
+                </form>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/new arrivals/9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">₹299 <span>₹399</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <form action="https://www.goodreads.com/book/show/1885.Pride_and_Prejudice">
+                    <button  class="rev">Reviews</button>
+                </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- arrivals section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <h3>deal of the day</h3>
+        <h1>upto 50% off</h1>
+        <p>A Man Called Ove is a novel by Swedish writer Fredrik Backman published by Forum in 2012. The novel was published in English in 2013 and reached the New York Times Best Seller list 18 months after its publication and stayed on the list for 42 weeks.</p>
+        <a href="https://www.amazon.in/Man-Called-Ove-life-affirming-bestseller/dp/1444775812" id ="dealbtn" class="btn" target="_blank" onclick="www.amazon.in/Man-Called-Ove-life-affirming-bestseller/dp/1444775812">shop now</a>
+    </div>
+
+    <div class="image">
+        <img src="image/offer.jpg" alt="A Man Called Ove">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>client's reviews</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <!-- <img src="image/pic-1.png" alt=""> -->
+                <h3>Sammed</h3>
+                <p>I love this website.They have variety of genres of books.The quality is also amazing</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <!-- <img src="image/pic-2.png" alt=""> -->
+                <h3>Aishwarya</h3>
+                <p>Very good website.They give amazing offers and the books are very affordable!!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <!-- <img src="image/pic-3.png" alt=""> -->
+                <h3>Vishak</h3>
+                <p>Thank you for delivering my books on time and in very good condition.Keep up the good work</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <!-- <img src="image/pic-4.png" alt=""> -->
+                <h3>Suzie</h3>
+                <p>Amazing webiste!!I got all the books in time and the quality is commendable.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <!-- <img src="image/pic-5.png" alt=""> -->
+                <h3>Nakul</h3>
+                <p>Love this website!They have an amazing collection of old books and all are very good .</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- reviews section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+     
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#featured"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#reviews"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#arrivals"> <i class="fas fa-arrow-right"></i> new arrivals </a>
+        </div>
+
+      
+        <div class="box">
+            <h3>contact info</h3>
+            <div class="contact"> <i class="fas fa-phone"></i> +91 9380403613 </div>
+            <div class="contact"> <i class="fas fa-phone"></i> +91 8861367056 </div>
+            <!-- <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCKCGCqKhHxQwXtTXHQbcNWJCKZgHWkHxkmSSfKVmLXXNDgRMsMTCTJxFqCBnfvJHmWLwNXq"> <i class="fas fa-envelope"></i> nakul.uttarkar@gmail.com </a> -->
+             <!-- <img src="image/worldmap.png" class="map" alt=""> --> 
+        <!-- </div> 
+        
+    </div>
+
+    <!-- <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div> -->
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<!-- <div class="loader-container">
+    <img src="image/loader-img.gif" alt="">
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
